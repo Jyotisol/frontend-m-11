@@ -1,0 +1,43 @@
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container {
+        width: 95%;
+        margin-left: 20px;
+    }
+    .container h1{
+        margin-top: -90px;
+    }
+    .container p{
+        width:100%;
+    }
+    #email{
+        width:90%;
+    }
+    .btn
+    {
+        width:90%;
+        margin-top: 20px;
+    }
+    .main img{
+        image: url(./assets/images/illustration-sign-up-mobile.svg);
+        width:100%;
+        height: 90%;
+    }
+
+    .thanks-container {
+        width: 90%;
+    }
+    .thanks-container p{
+        width:80%;
+    }
+    .thanks-container > button{
+        width: 80%;
+    }
+}
